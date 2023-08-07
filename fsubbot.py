@@ -24,11 +24,11 @@ if __name__ == "__main__":
     try:
         app.start()
     except (ApiIdInvalid, ApiIdPublishedFlood):
-        raise Exception("ʏᴏᴜʀ API_ID/API_HASH ɪs ɴᴏᴛ ᴠᴀɪʟᴅ.")
+        raise Exception("Your API_ID/API_HASH is not valid.")
     except AccessTokenInvalid:
-        raise Exception("ʏᴏᴜʀ BOT_TOKEN ɪs ɴᴏᴛ ᴠᴀɪʟᴅ.")
+        raise Exception("Your BOT_TOKEN is not valid.")
     uname = app.get_me().username
-    print(f"@{uname} ʙᴏᴛ ᴅᴇᴘʟᴏʏᴇᴅ sᴜᴄᴇssғᴜʟʟʏ ʙᴀʙʏ  ᴊᴏɪɴ  @AerodynamicV1Botz !")
+    print(f"@{uname} Bot Started Successfully By @AerodynamicV1Botz !")
     idle()
     app.stop()
-    print("ʙᴏᴛ sᴛᴏᴘᴘᴇᴅ .ʙᴀʙʏ!")
+    print("Bot stopped. Alvida!")
