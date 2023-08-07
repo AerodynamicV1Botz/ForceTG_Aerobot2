@@ -1,6 +1,6 @@
-from ForceSubscribeBot.database.users_sql import Users, num_users
-from ForceSubscribeBot.database.chats_sql import num_chats
-from ForceSubscribeBot.database import SESSION
+from ForceTG_Aerobot.database.users_sql import Users, num_users
+from ForceTG_Aerobot.database.chats_sql import num_chats
+from ForceTG_Aerobot.database import SESSION
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from Config import OWNER_ID
