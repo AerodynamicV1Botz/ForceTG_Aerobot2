@@ -67,4 +67,4 @@ async def main(bot: Client, msg: Message):
             except ChatWriteForbidden:
                 pass
     except ChatAdminRequired:
-        await msg.reply(f"ɪ ʜᴀᴠᴇ ʙᴇᴇɴ ᴅᴇᴍᴏᴛᴇᴅ ɪɴ `{force_chat}` (force subscribe chat)!")
+        await msg.reply(f"I have been demoted in `{force_chat}` (force subscribe chat)!")
