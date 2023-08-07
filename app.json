@@ -38,6 +38,16 @@
       "required": true,
       "value": ""
     },
+        "BOT_TOKEN1": {
+      "description": "Obtain a Telegram bot token by contacting @BotFather",
+      "required": true,
+      "value": ""
+    },
+        "BOT_TOKEN2": {
+      "description": "Obtain a Telegram bot token by contacting @BotFather",
+      "required": true,
+      "value": ""
+    },
     "START_IMG": {
       "description": "Fill Start Img url below",
       "required": true,
