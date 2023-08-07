@@ -1,47 +1,47 @@
-# ғᴏʀᴄᴇ sᴜʙsʀɪʙᴇ ʙᴏᴛ
+# [Force-Subscriber-Bot](https://t.me/Aero_Force_Subscriber_Bot)
 
- [Fᴏʀᴄᴇ sᴜʙsʀɪʙᴇ Bᴏᴛ](https://t.me/ForceSubscriber_RoBot)
-> ɢɪvᴇ ᴀ sᴛᴀʀ ʙᴇғᴏʀᴇ ᴋᴀᴍɢɪɴɢ  ғᴜᴍᴋᴇʀ
+> A star ⭐ from you means a lot to us!
 
-<p align="center"><a href="https://github.com/Noob-mukesh/ForceSubsribeBot"><img src="https://te.legra.ph/file/fe924e2746ad34b7dc76d.jpg" width="2000"></a></p>
+<p align="center"><a href="https://www.github.com/AerodynamicV1Botz/Force-Subscribe-Bot"><img src="https://telegra.ph//file/826bbc507e842a221a585.jpg" width="200"></a></p>
 
- ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏ ғᴏʀᴄᴇ sᴜʙsʀɪʙᴇ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴜsᴇʀs ᴛᴏ sᴜʙsʀɪʙᴇ ᴄʜᴀɴɴᴇʟ ᴏʀ ᴄʜᴀᴛ ʙʙ
+Telegram bot to force users to subscribe a particular chat.
 
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-## ᴜsᴀɢᴇ
+## Usage
 
-### ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴜᴋᴏ
+### Deploy to Heroku
 
-[![ᴅᴇᴘʟᴏʏ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AerodynamicV1Botz/ForceSubsribeBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AerodynamicV1Botz/ForceTG_Aerobot)
 
-1. Tᴀᴘ ᴏɴ ᴀʙᴏᴠᴅ ʙᴜᴛᴛᴏɴ ᴀɴᴅ ғɪʟʟ`API_ID`, `API_HASH`, `BOT_TOKEN` (ᴀɴᴅ `MUST_JOIN`).
-2. Tʜᴇɴ ᴛᴀᴘ ᴏɴ "ᴅᴇᴘʟᴏʏ ᴀᴘᴘ"ʙᴇʟᴏᴡ ɪᴛ ᴡᴀɪᴛ ᴛɪʟʟ ᴅᴇᴘʟᴏʏɪɴɢɪs ᴄᴏᴍᴘʟᴇᴛᴇ(ᴡɪʟʟ ᴛᴀᴋᴇ 1-2 ᴍɪɴᴜᴛᴇs).
-3. Aғᴛᴇʀ ᴅᴇᴘʟᴏʏɪɴɢ ɪs ᴄᴏᴍᴘʟᴇᴛᴇ, ᴛᴀᴘ  ᴏɴ "ᴍᴀɴᴀɢᴇ ᴀᴘᴘ"
-4. ᴄʜᴇᴀᴋ ᴛʜᴇ ʟᴏɢs ᴛᴏ sᴇᴇ ɪғ ʏᴏᴜʀ ʙᴏᴛ ɪs ʀᴇᴀᴅʏ.
+1. Tap on above button and fill `API_ID`, `API_HASH`, `BOT_TOKEN` (and `MUST_JOIN`).
+2. Then tap "Deploy App" below it. Wait till deploying is complete (will take atmost 2 minutes).
+3. After deploying is complete, tap on "Manage App"
+4. Check the logs to see if your bot is ready!
 
-### ʟᴏᴄᴀʟ ᴅᴇᴘʟᴏʏɪɴɢ
+### Local Deploying
 
-1. Cʟᴏɴᴇ ᴛʜᴇ ʀᴇᴘᴏ
+1. Clone the repo
    ```markdown
-   git clone https://github.com/AerodynamicV1Botz/ForceSubscribeBot
+   git clone https://github.com/AerodynamicV1Botz/Force-Subscribe-Bot
    ```
    
-2. Gᴇᴛ ᴀ DATABASE_URL.  Iғ ʏᴏᴜ ᴅᴏɴᴛ ᴋɴᴏᴡ ʜᴏᴡ ᴛᴏ ᴅᴇᴘʟᴏʏ .ᴛʜᴇɴ ᴅᴇᴘʟᴏʏ ᴜsɪɴɢ ʜᴇʀᴜᴋᴏ ʙᴜᴛᴛᴏɴᴏɴʟʏ ᴏʀ ᴅᴇʟᴇᴛᴇ ᴅᴀᴛᴀʙᴀsᴇ ᴛʜɪɴɢs ᴀs ɪᴛ's ɴᴏᴛ ᴀ ᴄᴏᴍᴘᴜʟsɪᴏɴ.
+2. Get a DATABASE_URL. If you don't know how, deploy using Heroku Button only or delete database things as it's not a compulsion.
    
-3. Eᴅɪᴛ `Config.py` ᴀɴᴅ ғɪʟʟ ᴛʜᴇ ɴᴇᴇᴅᴇᴅ ᴠᴀʀɪᴀʙʟᴇs
+3. Edit `Config.py` and fill the needed variables
 
-4. Eɴᴛᴇʀ ᴛʜᴇ ᴅɪʀᴇᴄᴛᴏʀʏ
+4. Enter the directory
    ```markdown
    cd ForceSubscribeBot
    ```
-5. Rᴜɴ ᴛʜᴇ ғɪʟᴇ
+5. Run the file
    ```markdown
    python3 fsubbot.py
    ```
 
-## ᴇɴᴠɪᴏʀɴᴍᴇɴᴛ ᴠᴀʀɪᴀʙʟᴇs
+## Environment Variables
 
-#### ᴍᴀʙᴅᴀᴛᴏʀʏ ᴠᴀʀs
+#### Mandatory Vars
 
 - `API_ID` - Get this from [my.telegram.org](https://my.telegram.org/auth)
 - `API_HASH` - Get this from [my.telegram.org](https://my.telegram.org/auth)
@@ -49,20 +49,31 @@
 - `DATABASE_URL` - Will be automatically added by Heroku.
 - `MUST_JOIN` - Username/ID of your telegram channel/group.
 
-## ғᴜɴᴄᴛɪᴏɴs
+## Functions
 
-> ᴍᴏʀᴇ ғᴇᴀᴛᴜʀᴇ sᴏᴏɴ ɪᴅ sᴜɢɢᴇsᴛᴇᴅ ʙʏ ʏᴏᴜ:)
+> More features soon if suggested by you :)
 
-[![ᴘʀs ᴡᴇʟᴄᴏᴍᴇ ](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+## To-Do
 
-## ᴄʀᴇᴅɪᴛ 
+> That's on you mainly...
 
- 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-[ɴᴏᴏʙ ᴄᴏᴅᴇʀ](https://t.me/legend_coder)
+## Credits
 
-## sᴜᴘᴘᴏʀᴛ
+- [AerodynamicV1Botz](https://github.com/AerodynamicV1Botz) for his [Pyrogram](https://docs.pyrogram.org) Library
+- [AerodynamicV1~🇮🇳](https://t.me/AerodynamicV1_OFFICIAL) for the idea.
 
-ᴄʜᴀɴɴᴇʟ :- [ᴍᴜᴋᴇsʜ ʙᴏᴛ ᴢᴏɴᴇ](https://t.me/mukeshbotzone)
+## Support
 
-ɢʀᴏᴜᴘ ᴄʜᴀᴛ :- [ᴛʜᴇ sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/the_support_chat)
+[Join Update✅](https://t.me/AerodynamicV1_UPDATE)
+
+[Join Support💬](https://t.me/AerodynamicV1_Promotion)
+
+## :)
+
+[![ForTheBadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/AerodynamicV1Botz)
+
+[![ForTheBadge makes-people-smile](http://ForTheBadge.com/images/badges/makes-people-smile.svg)](https://github.com/AerodynamicV1Botz)
