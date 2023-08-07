@@ -17,6 +17,8 @@ async def users_sql(_, msg: Message):
 
 
 @Client.on_message(filters.user(OWNER_ID) & filters.command("stats"))
+@Client.on_message(filters.user(OWNER_ID) & filters.command(["stats@Aero_Force2_Subscriber_Bot", "forcesubscribe@Aero_Force2_Subscriber_Bot"]))
+@Client.on_message(filters.user(OWNER_ID) & filters.command(["stats@Aero_Force_Subscriber_Bot", "forcesubscribe@Aero_Force_Subscriber_Bot"]))
 async def _stats(_, msg: Message):
     users = await num_users()
     chats = await num_chats()
