@@ -15,7 +15,9 @@ app = Client(
     api_id=Config.API_ID,
     api_hash=Config.API_HASH,
     bot_token=Config.BOT_TOKEN,
-    plugins=dict(root="ForceSubscribeBot"),
+    bot_token1=Config.BOT_TOKEN1,
+    bot_token2=Config.BOT_TOKEN2,
+    plugins=dict(root="ForceTG_Aerobot"),
 )
 
 
@@ -26,9 +28,9 @@ if __name__ == "__main__":
     except (ApiIdInvalid, ApiIdPublishedFlood):
         raise Exception("ʏᴏᴜʀ API_ID/API_HASH ɪs ɴᴏᴛ ᴠᴀɪʟᴅ.")
     except AccessTokenInvalid:
-        raise Exception("ʏᴏᴜʀ BOT_TOKEN ɪs ɴᴏᴛ ᴠᴀɪʟᴅ.")
+        raise Exception("ʏᴏᴜʀ BOT_TOKEN/BOT_TOKEN1/BOT_TOKEN2 ɪs ɴᴏᴛ ᴠᴀɪʟᴅ.")
     uname = app.get_me().username
-    print(f"@{uname} ʙᴏᴛ ᴅᴇᴘʟᴏʏᴇᴅ sᴜᴄᴇssғᴜʟʟʏ ʙᴀʙʏ  ᴊᴏɪɴ  @mukeshbotzone !")
+    print(f"@{uname} ʙᴏᴛ ᴅᴇᴘʟᴏʏᴇᴅ sᴜᴄᴇssғᴜʟʟʏ ʙᴀʙʏ  ᴊᴏɪɴ  @AerodynamicV1Botz !")
     idle()
     app.stop()
     print("ʙᴏᴛ sᴛᴏᴘᴘᴇᴅ .ʙᴀʙʏ!")
