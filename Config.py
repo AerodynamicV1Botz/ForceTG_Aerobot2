@@ -9,6 +9,8 @@ if ENVIRONMENT:
         raise Exception("Your API_ID is not a valid integer.")
     API_HASH = os.environ.get('API_HASH', "c408c6b40e1ebd04b76c7d04a8de1dad")
     BOT_TOKEN = os.environ.get('BOT_TOKEN', "5658314356:AAEIWcIyXBsQhRrltN_Nki6Ra5GcrTY522s")
+    BOT_TOKEN1 = os.environ.get('BOT_TOKEN1', "")
+    BOT_TOKEN2 = os.environ.get('BOT_TOKEN2', "") 
     DATABASE_URL = os.environ.get('DATABASE_URL', None)
     START_IMG = os.environ.get('START_IMG', None)
     BOT_USERNAME = os.environ.get('BOT_USERNAME', None)
@@ -24,6 +26,8 @@ else:
     API_ID = ""
     API_HASH = ""
     BOT_TOKEN = ""
+    BOT_TOKEN1 = ""
+    BOT_TOKEN2 = ""
     START_IMG= ""
     DATABASE_URL = ""
     BOT_USERNAME=""
