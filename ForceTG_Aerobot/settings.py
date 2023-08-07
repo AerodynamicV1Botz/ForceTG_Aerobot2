@@ -5,7 +5,9 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from ForceTG_Aerobot.database.chats_sql import get_action, get_ignore_service, get_only_owner, chat_exists
 from Config import START_IMG
 
-@Client.on_message(filters.text  & filters.command("settings"))
+@Client.on_message(filters.text & filters.incoming & filters.command("settings"))
+@Client.on_message(filters.text & filters.incoming & filters.command("settings@Aero_Force_Subscriber_Bot"))
+@Client.on_message(filters.text & filters.incoming & filters.command("settings@Aero_Force2_Subscriber_Bot"))
 async def settings(bot: Client, msg):
     success = await admin_check(bot, msg)
     if not success:
