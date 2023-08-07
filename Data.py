@@ -1,8 +1,8 @@
 from pyrogram.types import InlineKeyboardButton
-from Config import BOT_USERNAME
+
 
 class Data:
-        # Start Message
+    # Start Message
     START = """
 Hey {}
 
@@ -13,7 +13,7 @@ The chat can be a group or channel. It can be private or public.
 
 📚Use below buttons to learn more !
 
-•Made By [AerodynamicV1~🇮🇳](https://t.me/AerodynamicV1_OFFICIAL)
+•Made By [AerodynamicV1~🇮🇳](https://telegram.me/AerodynamicV1_OFFICIAL)
     """
 
     # Home Button
@@ -28,36 +28,39 @@ The chat can be a group or channel. It can be private or public.
             InlineKeyboardButton("[►How to Use❔◄]", callback_data="help")
         ],
         [
-            InlineKeyboardButton("[►Tech Earning◄]", url="https://t.me/Fiewin_Prediction_KingMasterMind"),
+            InlineKeyboardButton("[►Tech Earning◄]", url="https://t.me/AerodynamicV1_Promotion"),
             InlineKeyboardButton("[►About Me◄]", callback_data="about")
         ],
-        [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/Fiewin_Colour_Prediction_Winner"),
+        [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/AerodynamicV1_UPDATE/456"),
         InlineKeyboardButton("[►Update🔔◄]", url="https://t.me/AerodynamicV1_UPDATE")]
     ]
-        
-# Help Message
+
+    # Help Message
     HELP = """
-𝟷) ᴀᴅᴅ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ᴛᴏ ᴀ ɢʀᴏᴜᴘ. 
-𝟸) ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴛʜᴇ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴄʜᴀᴛ ᴀs ᴀᴅᴍɪɴ ᴡʜᴇʀᴇ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ғᴏʀᴄᴇ ʏᴏᴜʀ ᴜsᴇʀs ᴛᴏ ᴊᴏɪɴ. ɪᴛ ᴄᴀɴ ʙᴇ ᴀɴʏ ɢʀᴏᴜᴘ ᴏʀ ᴄʜᴀɴɴᴇʟ, ᴘᴜʙʟɪᴄ ᴏʀ ᴘʀɪᴠᴀᴛᴇ. 
-𝟹) ᴜsᴇ /fsub chat_id /username ᴛᴏ ᴍᴀᴋᴇ ᴍᴇ ғᴜɴᴄᴛɪᴏɴᴀʟ. ᴜsᴇ /id ɪғ ʏᴏᴜ ɴᴇᴇᴅ ᴄʜᴀᴛ ɪᴅ.
- ᴇxᴀᴍᴘʟᴇ : /fsub -𝟷𝟶𝟶𝟶𝟶𝟶𝟶𝟶𝟶𝟶𝟶 ᴏʀ /forcesubsribe -𝟷𝟶𝟶𝟶𝟶𝟶𝟶𝟶𝟶𝟶 
-𝟺) [ᴏᴘᴛɪᴏɴᴀʟ] ᴜsᴇ /settings ᴛᴏ ᴄʜᴀɴɢᴇ sᴇᴛᴛɪɴɢs! 
-𝟻) ʏᴏᴜ ᴀʀᴇ ɢᴏᴏᴅ ᴛᴏ ɢᴏ. ʟᴇᴀᴠᴇ ᴛʜᴇ ʀᴇsᴛ ᴛᴏ ᴍᴇ.
+1) Add me as **Admin** to a group.
 
- ✨ ᴀᴠᴀɪʟᴀʙᴇ ᴄᴍᴅs ʙᴀʙʏ  ✨ 
-/start -  sᴛᴀʀᴛ ғᴏʀᴄᴇ sᴜʙsʀɪʙᴇ ʙᴏᴛ 
-/fsub - sᴇᴇ ᴄᴜʀʀᴇɴᴛ ғᴏʀᴄᴇ sᴜʙsᴄʀɪʙᴇ ᴄʜᴀᴛ 
-/fsub chat_id/username- ғᴏʀᴄᴇ ᴜsᴇʀs ᴛᴏ ᴊᴏɪɴ ᴛʜᴇ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴄʜᴀᴛ
-/settings - ᴄʜᴀɴɢᴇ ɢʀᴏᴜᴘ sᴇᴛᴛɪɴɢs 
-/id - ɢᴇᴛ ᴛʜᴇ ᴄʜᴀᴛ ɪᴅ ᴏғ ᴀɴʏ ɢʀᴏᴜᴘ ᴏʀ ᴄʜᴀɴɴᴇʟ
-/about - ᴀʙᴏᴜᴛ ᴛʜᴇ ʙᴏᴛ 
-/help - ᴛʜɪs ᴍᴇssᴀɢᴇ 
-☞︎︎︎ ɴᴏᴛᴇ - ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴜsᴇ /forcesubsribe ɪɴsᴛᴇᴀᴅ ᴏғ /fsub
-"""
+2) Add me to the particular chat as **Admin** where you want to force your users to join. It can be any group or channel, public or private.
 
-# About Message
+3) Use /fsub chat_id/username to make me functional. Use /id if you need chat id.
+Example : `/fsub @AerodynamicV1_UPDATE` or `/forcesubscribe -1001212351472`
+
+4) [Optional] Use /settings to change settings!
+
+5) You are good to go. Leave the rest to me.
+
+     🔰**Available Commands**🔰
+
+/fsub Or /forcesubscribe chat_id/username - Force users to join the particular chat
+/settings - Change Group Settings
+/id - Get the chat id of any group or channel
+
+__**{►👁️‍🗨️ Watch Tutorial👉 [Click Here](https://youtu.be/flYDpr4Ox1c)◄}**__
+    """
+
+
+    # About Message
     ABOUT = """
-🔰About This Bot🔰
+**About This Bot** 
 
 This is Aero ✘ Force Subscriber~🇮🇳
 A powerful Telegram subscribing bot to force users in your group to join a particular chat. 
@@ -65,7 +68,6 @@ A powerful Telegram subscribing bot to force users in your group to join a parti
 ★Network » @AerodynamicV1Botz
 ★Developer » @AerodynamicV1_OFFICIAL
 ★Update » @AerodynamicV1_UPDATE
-★Tech Earning » @Fiewin_Prediction_KingMasterMind
-★Support » @Fiewin_Colour_Prediction_Winner
+★Support » @AerodynamicV1_SUPPORT
 ★Free Promotion » @AerodynamicV1_Promotion
     """
