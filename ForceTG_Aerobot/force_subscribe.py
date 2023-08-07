@@ -1,8 +1,8 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from ForceSubscribeBot.admin_check import admin_check
+from ForceTG_Aerobot.admin_check import admin_check
 from pyrogram.errors import UsernameInvalid, PeerIdInvalid, UserNotParticipant
-from ForceSubscribeBot.database.chats_sql import get_force_chat, change_force_chat, get_only_owner
+from ForceTG_Aerobot.database.chats_sql import get_force_chat, change_force_chat, get_only_owner
 from pyrogram.enums import ChatMemberStatus
 
 @Client.on_message(filters.text & filters.command(["fsub", "forcesubscribe"]))
