@@ -1,4 +1,4 @@
-# [Force-Subscriber-Bot](https://t.me/Aero_Force_Subscriber_Bot)
+# [Force-Subscriber-Bot](https://telegram.me/Aero_Force_Subscriber_Bot)
 
 > A star ⭐ from you means a lot to us!
 
@@ -62,11 +62,11 @@ Telegram bot to force users to subscribe a particular chat.
 ## Credits
 
 - [AerodynamicV1Botz](https://github.com/AerodynamicV1Botz) for his [Pyrogram](https://docs.pyrogram.org) Library
-- [AerodynamicV1~🇮🇳](https://t.me/AerodynamicV1_OFFICIAL) for the idea.
+- [AerodynamicV1~🇮🇳](https://telegram.me/AerodynamicV1_OFFICIAL) for the idea.
 
 ## Support
 
-[Join Update✅](https://t.me/AerodynamicV1_UPDATE)
+[Join Update✅](https://telegram.me/AerodynamicV1_UPDATE)
 
 [Join Support💬](https://t.me/AerodynamicV1_Promotion)
 
