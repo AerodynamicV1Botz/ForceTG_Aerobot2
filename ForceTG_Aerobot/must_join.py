@@ -20,14 +20,14 @@ async def must_join_channel(bot: Client, msg: Message):
             try:
                 await msg.delete()
                 await msg.reply_photo(START_IMG,
-                    f"Hey @{msg.from_user.username} ʏᴏᴜ ᴍᴜsᴛ ᴊᴏɪɴ  [ᴛʜɪs ᴄʜᴀɴɴᴇʟ]({link}) ᴛᴏ ᴜsᴇ ᴍᴇ. Aғᴛᴇʀ ᴊᴏɪɴɢ ᴛʀʏ ᴀɢᴀɪɴ /start or /help!",
+                    f"Hey @{msg.from_user.username} You have to join [this channel]({link}) to use me. After joining /start again to use my features!",
                 
                     reply_markup=InlineKeyboardMarkup([
-                        [InlineKeyboardButton("✨ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ✨", url=link)]
+                        [InlineKeyboardButton("👁️‍🗨️Join our Channel🔔", url=link)]
                     ])
                 )
                 await msg.stop_propagation()
             except ChatWriteForbidden:
                 pass
     except ChatAdminRequired:
-        print(f"ɪ'ᴍ ɴᴏᴛ ᴀᴅᴍɪɴ ɪɴ ᴛʜᴇ MUST_JOIN ᴄʜᴀᴛ : {MUST_JOIN} !")
+        print(f"I'm not admin in the MUST_JOIN chat : {MUST_JOIN} !")
