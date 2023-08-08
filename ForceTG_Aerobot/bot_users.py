@@ -22,4 +22,4 @@ async def users_sql(_, msg: Message):
 async def _stats(_, msg: Message):
     users = await num_users()
     chats = await num_chats()
-    await msg.reply(f"ᴛᴏᴛᴀʟ ᴜsᴇʀs : {users} \n\nᴛᴏᴛᴀʟ ᴄʜᴀᴛs : {chats} \n\nʙᴏᴛ ᴜᴘᴅᴀᴛᴇ : @AerodynamicV1_Update", quote=True)
+    await msg.reply(f"**About This Bot** \n\nThis is Aero ✘ Force Subscriber~🇮🇳 \nA powerful Telegram subscribing bot to force users in your group to join a particular chat. \n──────────────────── \n➻ Users ≈ {users} \n➻ Chats ≈ 1{chats} \n──────────────────── \n★Network » @AerodynamicV1Botz \n★Developer » @AerodynamicV1_OFFICIAL \n★Update » @AerodynamicV1_UPDATE \n★Support » @AerodynamicV1_SUPPORT \n★Free Promotion » @AerodynamicV1_Promotion", quote=True)
