@@ -49,7 +49,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
         await bot.edit_message_text(
             chat_id=chat_id,
             message_id=message_id,
-            text="**ʜᴇʀᴇ's ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ? **\n" + Data.HELP,
+            text="**here's how to use me ? **\n" + Data.HELP,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.home_buttons),
         )
@@ -124,7 +124,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             return
         if bot_chat_member2.status != ChatMemberStatus.ADMINISTRATOR:
             await callback_query.answer("I've been demoted from the force subscribe chat.", show_alert=True)
-            await bot.send_message(chat_id, ""I've been demoted from the force subscribe chat. Of no use then! F** ʟᴇᴀᴠɪɴɢ ᴄʜᴀᴛ!")
+            await bot.send_message(chat_id, ""I've been demoted from the force subscribe chat. Of no use then!")
             return
         not_joined = f"Join {mention} first then try!"
         try:
