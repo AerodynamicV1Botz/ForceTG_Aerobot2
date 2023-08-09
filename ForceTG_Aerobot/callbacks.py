@@ -39,7 +39,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
         await bot.edit_message_text(
             chat_id=chat_id,
             message_id=message_id,
-            text=Data.ABOUT,
+            text=Data.ABOUT.format(callback_query.from_user.mention, mention),
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.home_buttons),
         )
@@ -49,7 +49,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
         await bot.edit_message_text(
             chat_id=chat_id,
             message_id=message_id,
-            text="**here's how to use me ? **\n" + Data.HELP,
+            text="**here's how to use me ? **\n" + Data.HELP.format(callback_query.from_user.mention, mention),
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.home_buttons),
         )
