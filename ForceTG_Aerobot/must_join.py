@@ -13,14 +13,14 @@ async def must_join_channel(bot: Client, msg: Message):
             await bot.get_chat_member(MUST_JOIN, msg.from_user.id)
         except UserNotParticipant:
             if MUST_JOIN.isalpha():
-                link = "https://t.me/" + MUST_JOIN
+                link = "https://telegram.me/" + MUST_JOIN
             else:
                 chat_info = await bot.get_chat(MUST_JOIN)
                 link = chat_info.invite_link
             try:
                 await msg.delete()
                 await msg.reply_photo(START_IMG,
-                    f"Hey @{msg.from_user.username} You have to join [this channel]({link}) to use me. After joining /start again to use my features!",
+                    caption=f"Hey @{msg.from_user.username} You have to join [this channel]({link}) to use me. After joining /start again to use my features!",
                 
                     reply_markup=InlineKeyboardMarkup([
                         [InlineKeyboardButton("👁️‍🗨️Join our Channel🔔", url=link)]
