@@ -11,6 +11,6 @@ from Config import START_IMG
 async def _help(bot, msg):
     await msg.reply_photo(
         START_IMG,
-        caption="**Here's How to Use Me ?**\n" + Data.HELP.format(msg.from_user.mention, mention),
+        caption="**Here's How to Use Me ?**\n" + Data.HELP,
         reply_markup=InlineKeyboardMarkup(Data.home_buttons)
     )
