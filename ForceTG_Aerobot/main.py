@@ -40,7 +40,7 @@ async def main(bot: Client, msg: Message):
                     return
                 
                 elif action == 'warn':
-                    await msg.reply(f"Hey Dear {msg.from_user.mention},\n\nYou must join {mention} to chat here.\nChat again here after joining💯.",
+                    await msg.reply(f"Hey Dear {msg.from_user.mention},\n\nYou must have to join {mention} to chat here.",
                     disable_web_page_preview=True,
                     reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("👁️‍🗨️Join This Channel🔔", url=link)]]))
                     await msg.delete()
