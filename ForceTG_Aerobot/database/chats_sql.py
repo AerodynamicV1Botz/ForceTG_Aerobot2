@@ -11,7 +11,7 @@ class Chats(BASE):
     ignore_service = Column(Boolean)
     only_owner = Column(Boolean)
 
-    def __init__(self, channel_id, force_chat, action='mute', ignore_service=True, only_owner=True):
+    def __init__(self, channel_id, force_chat, action='warn', ignore_service=True, only_owner=True):
         self.channel_id = channel_id
         self.force_chat = force_chat
         self.action = action
