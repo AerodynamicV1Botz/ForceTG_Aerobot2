@@ -40,9 +40,9 @@ async def main(bot: Client, msg: Message):
                     return
                 
                 elif action == 'warn':
-                    await msg.reply(f"ʜᴇʏ ᴅᴇᴀʀ  {msg.from_user.mention},\n\nʏᴏᴜ ᴍᴜsᴛ ʜᴀᴠᴇ ᴛᴏ ᴊᴏɪɴ {mention} ᴛᴏ ᴄʜᴀᴛ ʜᴇʀᴇ ᴛʜᴇɴ ᴘʀᴇss ᴏɴ ᴜɴᴍᴜᴛᴇ ʙᴜᴛᴛᴏɴ.",
+                    await msg.reply(f"Hey Dear {msg.from_user.mention},\n\nYou must join {mention} to chat here.\nChat again here after joining💯.",
                     disable_web_page_preview=True,
-                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("✨ sᴜʙsᴄʀɪʙᴇ  ᴍʏ ᴄʜᴀɴɴᴇʟ  ✨", url=link)]]))
+                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("👁️‍🗨️Join This Channel🔔", url=link)]]))
                     await msg.delete()
                     return
 
@@ -57,7 +57,7 @@ async def main(bot: Client, msg: Message):
                     await msg.chat.restrict_member(user_id, ChatPermissions(can_send_messages=False))
                     buttons.append([InlineKeyboardButton("Unmute Me", callback_data=f"joined+{msg.from_user.id}")])
                 await msg.reply(
-                    f"ʜᴇʏ ᴅᴇᴀʀ  {msg.from_user.mention},\n\nʏᴏᴜ ᴍᴜsᴛ ʜᴀᴠᴇ ᴛᴏ ᴊᴏɪɴ {mention} ᴛᴏ ᴄʜᴀᴛ ʜᴇʀᴇ ᴛʜᴇɴ ᴘʀᴇss ᴏɴ ᴜɴᴍᴜᴛᴇ ʙᴜᴛᴛᴏɴ.",
+                    f"Hey Dear {msg.from_user.mention},\n\nYou must have to join {mention} to chat here then press on Unmute button.",
                     disable_web_page_preview=True,
                     reply_markup=InlineKeyboardMarkup(buttons),
                     
