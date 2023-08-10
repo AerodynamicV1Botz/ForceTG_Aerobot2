@@ -38,9 +38,9 @@ async def action_markup(chat_id):
     kick = "Kick"
     ban = "Ban"
     if action == "warn":
-        warn += " ✅"
+        warn+=" ✅"
     elif action=="mute":
-        mute+="✅"
+        mute += "✅"
     elif action == "kick":
         kick += " ✅"
     else:
