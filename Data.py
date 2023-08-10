@@ -28,7 +28,7 @@ The chat can be a group or channel. It can be private or public.
             InlineKeyboardButton("[►How to Use❔◄]", callback_data="help")
         ],
         [
-            InlineKeyboardButton("[►Tech Earning◄]", url="https://t.me/Fiewin_Prediction_KingMasterMind"),
+            InlineKeyboardButton("[►Tech Earning◄]", url="https://t.me/Tech_Earning_KingMasterMind"),
             InlineKeyboardButton("[►About Me◄]", callback_data="about")
         ],
         [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/Fiewin_Colour_Prediction_Winner"),
@@ -68,7 +68,7 @@ A powerful Telegram subscribing bot to force users in your group to join a parti
 ★Network » @AerodynamicV1Botz
 ★Developer » @AerodynamicV1_OFFICIAL
 ★Update » @AerodynamicV1_UPDATE
-★Tech Earning » @Fiewin_Prediction_KingMasterMind
+★Tech Earning » @TechEarning_KingMasterMind
 ★Support » @Fiewin_Colour_Prediction_Winner
 ★Free Promotion » @AerodynamicV1_Promotion
     """
