@@ -20,7 +20,7 @@ async def must_join_channel(bot: Client, msg: Message):
             try:
                 await msg.delete()
                 await msg.reply_photo(START_IMG,
-                    caption=f"Hey Dear @{msg.from_user.username} /n/nYou have to join [this channel]({link}) to use me. After joining /start again to use my features!",
+                    caption=f"Hey Dear @{msg.from_user.username} \n\nYou have to join [this channel]({link}) to use me. After joining /start again to use my features!",
                 
                     reply_markup=InlineKeyboardMarkup([
                         [InlineKeyboardButton("👁️‍🗨️Join our Channel🔔", url=link)]
