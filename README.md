@@ -34,7 +34,11 @@ Telegram bot to force users to subscribe a particular chat.
    ```markdown
    cd ForceTG_Aerobot
    ```
-5. Run the file
+   `pip3 install -U -r requirements.txt`
+   
+   `sudo apt install tmux && tmux`
+   
+6. Run the file
    ```markdown
    python3 fsubbot.py
    ```
