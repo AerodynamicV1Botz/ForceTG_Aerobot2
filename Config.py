@@ -9,8 +9,8 @@ if ENVIRONMENT:
         raise Exception("Your API_ID is not a valid integer.")
     API_HASH = os.environ.get('API_HASH', "c408c6b40e1ebd04b76c7d04a8de1dad")
     BOT_TOKEN = os.environ.get('BOT_TOKEN', "5658314356:AAEIWcIyXBsQhRrltN_Nki6Ra5GcrTY522s")
-    START_IMG = os.environ.get('START_IMG', None)
-    BOT_USERNAME = os.environ.get('BOT_USERNAME', None)
+    START_IMG = os.environ.get('START_IMG', "https://te.legra.ph/file/023e6daf966ba99871b80.jpg")
+    BOT_USERNAME = os.environ.get('BOT_USERNAME', "")
     OWNER_ID=1484735126
     OWNER_ID=5708737143
     MUST_JOIN = os.environ.get('MUST_JOIN', )
