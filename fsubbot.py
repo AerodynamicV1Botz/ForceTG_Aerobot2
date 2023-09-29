@@ -12,6 +12,17 @@ logging.basicConfig(
 )
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
+class Bot(Client):
+
+    def __init__(aerobot):
+        super().__init__(
+            api_id=Config.API_ID,
+            api_hash=Config.API_HASH,
+            bot_token=Config.BOT_TOKEN,
+            plugins=dict(root="ForceTG_Aerobot"),
+        )
+
+    async def start(aerobot):
 
 aerobot = Client(
     ":memory:",
