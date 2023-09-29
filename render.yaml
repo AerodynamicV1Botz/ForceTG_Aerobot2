@@ -4,7 +4,7 @@ services:
     name: ForceTG_Aerobot2.0
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python3 bot.py
+    startCommand: python3 fsubbot.py
     repo: https://github.com/AerodynamicV1Botz/ForceTG_Aerobot2.0.git      
     branch: main
     envVars:
