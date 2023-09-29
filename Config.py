@@ -10,7 +10,7 @@ if ENVIRONMENT:
     API_HASH = os.environ.get('API_HASH', "c408c6b40e1ebd04b76c7d04a8de1dad")
     BOT_TOKEN = os.environ.get('BOT_TOKEN', "5219214161:AAFudzJ_ixUrexsdEUPFNWxynDahgm7P96g")
     START_IMG = os.environ.get('START_IMG', "https://te.legra.ph/file/023e6daf966ba99871b80.jpg")
-    DATABASE_URL = os.environ.get('DATABASE_URL', None)
+    DATABASE_URL = os.environ.get('DATABASE_URL', "postgres://forcesubaerobot_user:cokOZ8DwqefWzkh3CM2IkkDmCiLtkxS3@dpg-ckb4lv1kms5s73c8gvv0-a.oregon-postgres.render.com/forcesubaerobot")
     BOT_USERNAME = os.environ.get('BOT_USERNAME', None)
     OWNER_ID=1484735126
     OWNER_ID=5708737143
