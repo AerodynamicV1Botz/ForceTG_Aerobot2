@@ -1,1 +1,1 @@
-worker: python3 fsubbot.py
+web: python3 fsubbot.py
