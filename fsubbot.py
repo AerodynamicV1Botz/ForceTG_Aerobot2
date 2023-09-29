@@ -13,7 +13,7 @@ logging.basicConfig(
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 
-app = Client(
+aerobot = Client(
     ":memory:",
     api_id=Config.API_ID,
     api_hash=Config.API_HASH,
@@ -25,16 +25,17 @@ app = Client(
 # Run Bot
 if __name__ == "__main__":
     try:
-        app = web.AppRunner(await web_server())
-        await app.setup()
-        bind_address = "0.0.0.0"
-        await web.TCPSite(app, bind_address, PORT).start()
+        aerobot.start()
     except (ApiIdInvalid, ApiIdPublishedFlood):
         raise Exception("Your API_ID/API_HASH is not valid.")
     except AccessTokenInvalid:
         raise Exception("Your BOT_TOKEN is not valid.")
-    uname = app.get_me().username
+         app = web.AppRunner(await web_server())
+        await app.setup()
+        bind_address = "0.0.0.0"
+        await web.TCPSite(app, bind_address, PORT).start()
+    uname = aerobot.get_me().username
     print(f"@{uname} Bot Started Successfully By @AerodynamicV1Botz !")
     idle()
-    app.stop()
+    aerobot.stop()
     print("Bot stopped. Alvida!")
