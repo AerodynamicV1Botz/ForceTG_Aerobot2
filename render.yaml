@@ -14,14 +14,12 @@ services:
         sync: false
       - key: API_HASH
         sync: false
-      - key: ADMINS
+      - key: START_IMG
         sync: false
       - key: DATABASE_NAME
         sync: false
       - key: DATABASE_URI
         sync: false 
-      - key: PICS
-        sync: false
-      - key: LOG_CHANNEL
+      - key: MUST_JOIN
         sync: false    
     autoDeploy: false 
