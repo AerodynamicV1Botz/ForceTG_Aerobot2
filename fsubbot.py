@@ -23,28 +23,19 @@ class Bot(Client):
         )
 
     async def start(aerobot):
-
-aerobot = Client(
-    ":memory:",
-    api_id=Config.API_ID,
-    api_hash=Config.API_HASH,
-    bot_token=Config.BOT_TOKEN,
-    plugins=dict(root="ForceTG_Aerobot"),
-)
-
+         app = web.AppRunner(await web_server())
+        await app.setup()
+        bind_address = "0.0.0.0"
+        await web.TCPSite(app, bind_address, PORT).start()        
 
 # Run Bot
 if __name__ == "__main__":
     try:
-        aerobot.start()
+        await super().start()
     except (ApiIdInvalid, ApiIdPublishedFlood):
         raise Exception("Your API_ID/API_HASH is not valid.")
     except AccessTokenInvalid:
         raise Exception("Your BOT_TOKEN is not valid.")
-         app = web.AppRunner(await web_server())
-        await app.setup()
-        bind_address = "0.0.0.0"
-        await web.TCPSite(app, bind_address, PORT).start()
     uname = aerobot.get_me().username
     print(f"@{uname} Bot Started Successfully By @AerodynamicV1Botz !")
     idle()
