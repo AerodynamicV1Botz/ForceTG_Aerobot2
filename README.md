@@ -2,7 +2,7 @@
 
 > A star ⭐ from you means a lot to us!
 
-<p align="center"><a href="https://www.github.com/AerodynamicV1Botz/ForceTG_Aerobot2.0"><img src="https://telegra.ph//file/826bbc507e842a221a585.jpg" width="200"></a></p>
+<p align="center"><a href="https://www.github.com/AerodynamicV1Botz/ForceTG_Aerobot2"><img src="https://telegra.ph//file/826bbc507e842a221a585.jpg" width="200"></a></p>
 
 Telegram bot to force users to subscribe a particular chat.
 
@@ -12,7 +12,7 @@ Telegram bot to force users to subscribe a particular chat.
 
 ### Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AerodynamicV1Botz/ForceTG_Aerobot2.0)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AerodynamicV1Botz/ForceTG_Aerobot2)
 
 1. Tap on above button and fill `API_ID`, `API_HASH`, `START_IMG`, `BOT_TOKEN` (and `MUST_JOIN`).
 2. Then tap "Deploy App" below it. Wait till deploying is complete (will take atmost 2 minutes).
@@ -23,7 +23,7 @@ Telegram bot to force users to subscribe a particular chat.
 
 1. Clone the repo
    ```markdown
-   git clone https://github.com/AerodynamicV1Botz/ForceTG_Aerobot2.0
+   git clone https://github.com/AerodynamicV1Botz/ForceTG_Aerobot2
    ```
    
 2. Get a DATABASE_URL. If you don't know how, deploy using Heroku Button only or delete database things as it's not a compulsion.
@@ -32,7 +32,7 @@ Telegram bot to force users to subscribe a particular chat.
 
 4. Enter the directory
    ```markdown
-   cd ForceTG_Aerobot2.0
+   cd ForceTG_Aerobot2
    ```
    `pip3 install -U -r requirements.txt`
    
