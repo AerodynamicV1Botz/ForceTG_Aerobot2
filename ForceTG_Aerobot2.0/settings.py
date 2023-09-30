@@ -1,8 +1,8 @@
 from pyrogram.enums import ChatMemberStatus
 from pyrogram import Client, filters
-from ForceTG_Aerobot.admin_check import admin_check
+from ForceTG_Aerobot2.0.admin_check import admin_check
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from ForceTG_Aerobot.database.chats_sql import get_action, get_ignore_service, get_only_owner, chat_exists
+from ForceTG_Aerobot2.0.database.chats_sql import get_action, get_ignore_service, get_only_owner, chat_exists
 from Config import START_IMG
 
 @Client.on_message(filters.text & filters.incoming & filters.command("settings"))
