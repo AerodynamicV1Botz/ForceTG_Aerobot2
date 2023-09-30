@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 import Config
 from datetime import datetime, timedelta
-from ForceTG_Aerobot2.0.database.chats_sql import get_force_chat, get_action, get_ignore_service
+from ForceTG_Aerobot2.database.chats_sql import get_force_chat, get_action, get_ignore_service
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, ChatPermissions
 from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForbidden
 from pyrogram.enums import ChatMemberStatus
