@@ -16,9 +16,7 @@ services:
         sync: false
       - key: START_IMG
         sync: false
-      - key: DATABASE_NAME
-        sync: false
-      - key: DATABASE_URI
+      - key: DATABASE_URL
         sync: false 
       - key: MUST_JOIN
         sync: false    
