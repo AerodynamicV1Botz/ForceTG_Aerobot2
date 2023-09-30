@@ -29,7 +29,10 @@ class Bot(Client):
         await app.setup()
         bind_address = "0.0.0.0"
         await web.TCPSite(app, bind_address, PORT).start()        
-
+    uname = aerobot.get_me().username
+    print(f"@{uname} Bot Started Successfully By @AerodynamicV1Botz !")
+    idle()
+    
 # Run Bot
 if __name__ == "__main__":
     try:
@@ -37,9 +40,7 @@ if __name__ == "__main__":
         raise Exception("Your API_ID/API_HASH is not valid.")
     except AccessTokenInvalid:
         raise Exception("Your BOT_TOKEN is not valid.")
-    uname = aerobot.get_me().username
-    print(f"@{uname} Bot Started Successfully By @AerodynamicV1Botz !")
-    idle()
+
 async def stop(aerobot, *args):
     super().stop()
     print("Bot stopped. Alvida!")
