@@ -1,11 +1,11 @@
 services:
   - type: web
     plan: free
-    name: ForceTG_Aerobot2.0
+    name: ForceTG_Aerobot2
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python3 fsubbot.py
-    repo: https://github.com/AerodynamicV1Botz/ForceTG_Aerobot2.0.git      
+    repo: https://github.com/AerodynamicV1Botz/ForceTG_Aerobot2.git      
     branch: main
     envVars:
       - key: BOT_TOKEN 
