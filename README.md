@@ -2,7 +2,7 @@
 
 > A star ⭐ from you means a lot to us!
 
-<p align="center"><a href="https://www.github.com/AerodynamicV1Botz/ForceTG_Aerobot"><img src="https://telegra.ph//file/826bbc507e842a221a585.jpg" width="200"></a></p>
+<p align="center"><a href="https://www.github.com/AerodynamicV1Botz/ForceTG_Aerobot2.0"><img src="https://telegra.ph//file/826bbc507e842a221a585.jpg" width="200"></a></p>
 
 Telegram bot to force users to subscribe a particular chat.
 
@@ -12,7 +12,7 @@ Telegram bot to force users to subscribe a particular chat.
 
 ### Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AerodynamicV1Botz/ForceTG_Aerobot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AerodynamicV1Botz/ForceTG_Aerobot2.0)
 
 1. Tap on above button and fill `API_ID`, `API_HASH`, `START_IMG`, `BOT_TOKEN` (and `MUST_JOIN`).
 2. Then tap "Deploy App" below it. Wait till deploying is complete (will take atmost 2 minutes).
@@ -32,7 +32,7 @@ Telegram bot to force users to subscribe a particular chat.
 
 4. Enter the directory
    ```markdown
-   cd ForceTG_Aerobot
+   cd ForceTG_Aerobot2.0
    ```
    `pip3 install -U -r requirements.txt`
    
