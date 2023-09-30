@@ -24,15 +24,15 @@ class Bot(Client):
         )
 
     async def start(aerobot):
+        await super().start()
          app = web.AppRunner(await web_server())
-        await super().setup()
+        await app.setup()
         bind_address = "0.0.0.0"
         await web.TCPSite(app, bind_address, PORT).start()        
 
 # Run Bot
 if __name__ == "__main__":
     try:
-        await super().start()
     except (ApiIdInvalid, ApiIdPublishedFlood):
         raise Exception("Your API_ID/API_HASH is not valid.")
     except AccessTokenInvalid:
