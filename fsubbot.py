@@ -25,7 +25,7 @@ class Bot(Client):
 
     async def start(aerobot):
          app = web.AppRunner(await web_server())
-        await web.setup()
+        await aerobot.setup()
         bind_address = "0.0.0.0"
         await web.TCPSite(app, bind_address, PORT).start()        
 
