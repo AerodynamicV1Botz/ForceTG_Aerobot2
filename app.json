@@ -16,7 +16,7 @@
             "plan": "heroku-postgresql"
         }
     ],
-  "repository": "https://github.com/AerodynamicV1Botz/ForceTG_Aerobot",
+  "repository": "https://github.com/AerodynamicV1Botz/ForceTG_Aerobot2.0",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
