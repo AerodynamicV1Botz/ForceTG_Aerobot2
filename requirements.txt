@@ -1,4 +1,6 @@
+aiohttp==3.8.5
+asyncio==3.4.3
 pyrogram==2.0.106
 TgCrypto
-SQLAlchemy~=1.4.21
+sqlalchemy==1.4.46
 psycopg2
