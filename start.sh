@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/AerodynamicV1Botz/ForceTG_Aerobot2.0.git /EvaMaria
+  git clone https://github.com/AerodynamicV1Botz/ForceTG_Aerobot2.0.git /ForceTG_Aerobot2.0
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /ForceTG_Aerobot2.0
