@@ -4,7 +4,7 @@ import asyncio
 from pyrogram import Client, idle
 from pyrogram.errors import ApiIdInvalid, ApiIdPublishedFlood, AccessTokenInvalid
 from aiohttp import web
-from ForceTG_Aerobot2.0 import web_server
+from ForceTG_Aerobot2 import web_server
 
 PORT = "8080"
 
