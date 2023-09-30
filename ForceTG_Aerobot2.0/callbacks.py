@@ -3,7 +3,7 @@ from pyrogram import Client
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.types import CallbackQuery, InlineKeyboardMarkup
 from pyrogram.errors.exceptions import UserNotParticipant
-from ForceTG_Aerobot2.database.chats_sql import (
+from ForceTG_Aerobot2.0.database.chats_sql import (
     get_action,
     change_action,
     get_force_chat,
@@ -12,8 +12,8 @@ from ForceTG_Aerobot2.database.chats_sql import (
     get_only_owner,
     toggle_only_owner
 )
-from ForceTG_Aerobot.admin_check import admin_check
-from ForceTG_Aerobot.settings import action_markup
+from ForceTG_Aerobot2.0.admin_check import admin_check
+from ForceTG_Aerobot2.0.settings import action_markup
 
 
 # Callbacks
