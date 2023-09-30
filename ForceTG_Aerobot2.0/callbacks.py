@@ -3,7 +3,7 @@ from pyrogram import Client
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.types import CallbackQuery, InlineKeyboardMarkup
 from pyrogram.errors.exceptions import UserNotParticipant
-from ForceTG_Aerobot.database.chats_sql import (
+from ForceTG_Aerobot2.database.chats_sql import (
     get_action,
     change_action,
     get_force_chat,
