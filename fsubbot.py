@@ -2,8 +2,9 @@ import Config
 import logging
 from pyrogram import Client, idle
 from pyrogram.errors import ApiIdInvalid, ApiIdPublishedFlood, AccessTokenInvalid
+from pyrogram import types
 from aiohttp import web
-from plugins import web_server
+from ForceTG_Aerobot import web_server
 
 PORT = "8080"
 
@@ -39,5 +40,9 @@ if __name__ == "__main__":
     uname = aerobot.get_me().username
     print(f"@{uname} Bot Started Successfully By @AerodynamicV1Botz !")
     idle()
-    aerobot.stop()
+async def stop(aerobot, *args):
+    super().stop()
     print("Bot stopped. Alvida!")
+
+app = Bot()
+app.run()
